@@ -88,7 +88,7 @@ function setAnyAnswer() {
 			x.click();
 			return x.innerText;
 		} catch {}
-		setAnswer(["123456"]);
+		setAnswer("123456");
 	}
 }
 
